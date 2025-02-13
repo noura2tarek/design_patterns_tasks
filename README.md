@@ -2,7 +2,7 @@
 
 # Description
 
-This dart project implements a builder design pattern example:                                                  
+This dart project implements a **builder design pattern** example:                                                  
 Consists of the User Class in order to create an object that adds to the constructor the data you           
 want to provide only.
 
@@ -25,3 +25,8 @@ My output screenshot in the images folder.
 # How to run    
 
 Run the main file in bin/main.dart
+
+--------------------------------------------
+# Notes
+- The factory design pattern task in "factory_pattern" branch.
+
