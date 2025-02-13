@@ -2,7 +2,7 @@
 
 # Description
 
-This dart project implements a **factory design pattern** example.
+This dart project implements a **factory design pattern** example
 to create objects without specifying their concrete classes.
 
 # Explanation
