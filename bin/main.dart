@@ -1,13 +1,15 @@
-import 'user_class.dart';
+import 'shape_message_printer.dart';
 
 void main() {
-  // create user builder
-  UserBuilder userBuilder = UserBuilder();
-  // set the data of the user you need.
-  userBuilder.firstName = 'Ahmed';
-  userBuilder.lastName = 'Tarek';
-  userBuilder.phone = '01154448888';
-  // create user object using build method in user builder
-  User user = userBuilder.buildUser();
-  print('User name is: ${user.firstName}');
+  // Create an object of ShapeMessagePrinter class
+  ShapeMessagePrinter shapePrinter = ShapeMessagePrinter();
+  //-- Test printing messages: --
+  // print message of circle shape
+  shapePrinter.printMessage('circle');
+  // print message of rectangle shape
+  shapePrinter.printMessage('rectangle');
+  // print message of square shape
+  shapePrinter.printMessage('square');
+  // Test an invalid shape type
+  shapePrinter.printMessage('triangle');
 }
