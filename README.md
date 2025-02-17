@@ -24,10 +24,10 @@ We create an instance of the client class and call the compareInstances method.
 
 # Structure
 
-the main file in bin/main.dart              
-the Database class in bin/database_class.dart
-the client class in bin/client_class.dart                 
-My output screenshot in the images folder.
+the main file in bin/main.dart.                          
+the Database class in bin/database_class.dart.                
+the client class in bin/client_class.dart.                         
+My output screenshot in the images folder.              
 
 # How to run
 
