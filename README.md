@@ -9,9 +9,12 @@ The project consists of the Database class and the Client class.
 
 # Explanation
 
-The **Database Class** has a private constructor(so that, it can't be instantiated), a private
+The **Database Class** has a private constructor (so that, it can't be instantiated), a private
 static instance, and getInstance method
 to return the instance of the Database class.                     
+
+The getInstance method checks if the object was
+instantiated before or not (if yes return the same object, if not instantiate the object).         
 
 The **Client Class** is used to check singleton pattern by creating two instances of the database                 
 class and comparing them (using compareInstances method).                  
