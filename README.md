@@ -28,5 +28,5 @@ Run the main file in bin/main.dart
 
 --------------------------------------------
 # Notes
-- The factory design pattern task in "factory_pattern" branch.
-
+- The factory design pattern task in "factory_pattern" branch.                  
+- The Singleton design pattern task in "singleton_pattern" branch.         
