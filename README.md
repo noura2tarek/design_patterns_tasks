@@ -2,31 +2,33 @@
 
 # Description
 
-This dart project implements a **builder design pattern** example:                                                  
-Consists of the User Class in order to create an object that adds to the constructor the data you           
-want to provide only.
+This dart project implements a **Singleton design pattern**:
+This pattern is used to ensure that only one instance is made of
+the class.
+The project consists of the Database class and the Client class.
 
 # Explanation
 
-The **user class** has first name, last name, age, and phone attributes.
-The first name and last name are required data.                           
+The **Database Class** has a private constructor(so that, it can't be instantiated), a private
+static instance, and getInstance method
+to return the instance of the Database class.
 
-The **user builder class** is used to set the data of the user you need (using setters).                                       
-The **buildUser method** (in user builder class) creates a user object using the data set by the user builder.                                             
-**Note**:                                                 
-if the first name and last name are not set, an exception error will be thrown.                        
+The **Client Class** is used to check singleton pattern by creating two instances of the database
+class and comparing them (using compareInstances method).
+
+Then, in main file:
+We create an instance of the client class and call the compareInstances method
 
 # Structure
-the main file in bin/main.dart                      
-the user class & user builder class in user_class.dart                  
-My output screenshot in the images folder.                                         
 
+the main file in bin/main.dart              
+the Database class in bin/database_class.dart
+the client class in bin/client_class.dart                 
+My output screenshot in the images folder.
 
-# How to run    
+# How to run
 
 Run the main file in bin/main.dart
 
 --------------------------------------------
-# Notes
-- The factory design pattern task in "factory_pattern" branch.
 
