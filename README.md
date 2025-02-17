@@ -2,7 +2,7 @@
 
 # Description
 
-This dart project implements a **Singleton design pattern**:
+This dart project implements a **Singleton design pattern**:                             
 This pattern is used to ensure that only one instance is made of
 the class.                    
 The project consists of the Database class and the Client class.
